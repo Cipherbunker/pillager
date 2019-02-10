@@ -41,3 +41,4 @@ be stored in ~/.pillager/list.
   export class AppComponent {
     title = 'app works!';
   }
+```
