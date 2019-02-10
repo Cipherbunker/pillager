@@ -1,14 +1,14 @@
 #!/bin/bash
 
 
-WBlack="\033[0;30m"        # Black
-Red="\033[0;31m"          # Red
-Green="\033[0;32m"        # Green
-Yellow="\033[0;33m"       # Yellow
-Blue="\033[0;34m"         # Blue
-Purple="\033[0;35m"       # Purple
-Cyan="\033[0;36m"         # Cyan
-White="\033[0;37m"        # White
+WBlack="\033[0;30m"       
+Red="\033[0;31m"          
+Green="\033[0;32m"        
+Yellow="\033[0;33m"       
+Blue="\033[0;34m"         
+Purple="\033[0;35m"       
+Cyan="\033[0;36m"         
+White="\033[0;37m"        
 BLACK="\e[00;30m"
 DARY_GRAY="\e[01;30m"
 RED="\e[00;31m"
@@ -24,25 +24,25 @@ BRIGHT_CYAN="\e[01;36m"
 LIGHT_GRAY="\e[00;37m"
 
 # Bold
-BBlack="\033[1;30m"       # Black
-BRed="\033[1;31m"         # Red
-BGreen="\033[1;32m"       # Green
-BYellow="\033[1;33m"      # Yellow
-BBlue="\033[1;34m"        # Blue
-BPurple="\033[1;35m"      # Purple
-BCyan="\033[1;36m"        # Cyan
-BWhite="\033[1;37m"       # White
+BBlack="\033[1;30m"       
+BRed="\033[1;31m"         
+BGreen="\033[1;32m"       
+BYellow="\033[1;33m"      
+BBlue="\033[1;34m"        
+BPurple="\033[1;35m"      
+BCyan="\033[1;36m"        
+BWhite="\033[1;37m"       
 
 
 # Underline
-UBlack="\033[4;30m"       # Black
-URed="\033[4;31m"         # Red
-UGreen="\033[4;32m"       # Green
-UYellow="\033[4;33m"      # Yellow
-UBlue="\033[4;34m"        # Blue
-UPurple="\033[4;35m"      # Purple
-UCyan="\033[4;36m"        # Cyan
-UWhite="\033[4;37m"       # White
+UBlack="\033[4;30m"       
+URed="\033[4;31m"         
+UGreen="\033[4;32m"       
+UYellow="\033[4;33m"      
+UBlue="\033[4;34m"        
+UPurple="\033[4;35m"      
+UCyan="\033[4;36m"        
+UWhite="\033[4;37m"       
 
 
 printf $BCyan"\n"
