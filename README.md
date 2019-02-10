@@ -4,6 +4,12 @@
     |  ___/    | |   | |      | |        / /\ \   | | |_ | |  __|   |  _  / 
     | |       _| |_  | |____  | |____   / ____ \  | |__| | | |____  | | \ \ 
     |_|      |_____| |______| |______| /_/    \_\  \_____| |______| |_|  \_\
+         _   _  _____        __  ___ _   _    ____ ___  _     ___  ____  
+        | \ | |/ _ \ \      / / |_ _| \ | |  / ___/ _ \| |   / _ \|  _ \ 
+        |  \| | | | \ \ /\ / /   | ||  \| | | |  | | | | |  | | | | |_) |
+        | |\  | |_| |\ V  V /    | || |\  | | |__| |_| | |__| |_| |  _ < 
+        |_| \_|\___/  \_/\_/    |___|_| \_|  \____\___/|_____\___/|_| \_\
+    
                                                            
 A wget bash script to download things from sites. 
 
@@ -16,3 +22,22 @@ By default this script will download into the current directory. The download pa
 
 When a link is pillaged, the link address will 
 be stored in ~/.pillager/list.
+
+
+
+
+
+
+```js
+  import { Component } from '@angular/core';
+  import { MovieService } from './services/movie.service';
+
+  @Component({
+    selector: 'app-root',
+    templateUrl: './app.component.html',
+    styleUrls: ['./app.component.css'],
+    providers: [ MovieService ]
+  })
+  export class AppComponent {
+    title = 'app works!';
+  }
